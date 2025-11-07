@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background: palevioletred;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: azure;
+    border-bottom: 3 px solid black;
+}
+
+nav{
+    background: rgb(106, 106, 227);
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    min-height: 540px;
+    background: violet;
+    padding: 50 px;
+
+}
+
+.article{
+    color: azure;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* padding-bottom: 10px; */
+    border-bottom:  1px solid white;
+    padding: 10px;
+    
+
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid whitesmoke;
+}
+
+.article h2{
+    font-size: 30px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 40px);
+    min-height: 500px;
+    background: teal;
+    padding: 20px;
+    /* padding-left: 10 px;
+    padding-right: 10 px;
+    padding-top: 25px; */
+}
+
+footer{
+    background: black;
+    color: antiquewhite;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
